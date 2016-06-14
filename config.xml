@@ -1,0 +1,19 @@
+<settings>
+	<email>
+
+		<to>tier2@mbisolutions.net</to>
+		<to>NOC@mbisolutions.net</to>
+	<!--
+		<to>kmccool@mbisolutions.net</to>
+	-->
+	</email>
+	<db>
+		<connection>
+			<Netezza>server='SQL-1-BSC\BSCXE';Database=netezza_monitoring;Trusted_Connection=Yes</Netezza>
+			<SQLServer>server='SQL-1-BSC\BSCXE';Database=monitor_SQLServer;Trusted_Connection=Yes</SQLServer>
+			<!--
+			<SQLServer>server='SQL-1-BSC\BSCXE';Database=monitor_SQLServer;user id=kmccool;password=xxx</SQLServer>
+			-->
+		</connection>
+	</db>
+</settings>
